@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Stake Dice Auto-better",
+  "version": "2.1",
+  "description": "",
+  "permissions": ["storage", "tabs", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://stake.us/casino/games/dice*"],
+      "js": ["resources.js", "helpers.js", "content.js"]
+    }
+  ]
+}

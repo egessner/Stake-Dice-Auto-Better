@@ -1,0 +1,140 @@
+<!-- NGL chatGPT helped me with the CSS -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 10px;
+      border-radius: 6px;
+      background-color: #fbfdfd
+    }
+
+    button:hover {
+      filter: brightness(90%)
+    }
+
+    button:active {
+      filter: brightness(75%)
+    }
+
+    .center-row {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+
+    .btn-primary {
+      flex: 1;
+      text-align: center;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .btn-play {
+      flex: 1;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      border: 1px solid #cccccc;
+      border-radius: 6px;
+      background-color: #b1c6ba
+    }
+
+    /* Force two columns */
+    .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 15px;
+    }
+
+    .field {
+      flex: 1;
+      text-align: center;
+    }
+
+    .field label {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+
+    .field input {
+      width: 80px;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      text-align: center;
+    }
+
+    .field-lg {
+      flex: 1;
+      text-align: center;
+    }
+
+    .field-lg label {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: bold;
+    }
+
+    .field-lg input {
+      width: 100%;
+      /* padding: 6px; */
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- main open dice button -->
+  <div class='center-row'>
+    <button class='btn-primary' id='openDice'>Open Dice</button>
+  </div>
+  <!-- update and reset button -->
+  <div class='row'>
+    <button class='btn-primary' id='update'>Update</button>
+    <button class='btn-primary' id='default'>Reset to Default</button>
+  </div>
+  <!-- bet and per columns -->
+  <div class='row'>
+    <div class='field'>
+      <label for='bet'>Bet</label>
+      <input id='bet' type='number' step='0.01' value='0.03'>
+    </div>
+    <div class='field'>
+      <label for='per'>Per</label>
+      <input id='per' type='number' value='100'>
+    </div>
+  </div>
+  <!-- stop win and deposit amount columns -->
+  <div class='row'>
+    <div class='field'>
+      <label for='stopWin'>Stop win</label>
+      <input id='stopWin' type='number' value='200'>
+    </div>
+    <div class='field'>
+      <label for='deposit'>Deposit Amount</label>
+      <input id='deposit' type='number' value='100'>
+    </div>
+  </div>
+  <!-- min bank balance for bet -->
+  <!-- <div class='center-row'> -->
+  <div class='field-lg'>
+    <label for='minBankBal'>Min bank balance for bet to take effect</label>
+    <input id='minBankBal' type='number' value='85'>
+  </div>
+  <!-- </div> -->
+  <!-- play button -->
+  <div class='center-row'>
+    <button class='btn-play' id='play'>Play</button>
+  </div>
+</body>
+<script src="resources.js"></script>
+<script src="popup.js"></script>
+</html>
