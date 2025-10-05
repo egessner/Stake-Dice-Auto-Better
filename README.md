@@ -68,13 +68,13 @@ start autoplay, and manage vault deposits automatically.
 
 ## Strategy
 
-1. Recommended to have at least $100 in the bank and to never bet above $.1 per $100 in the bank because you will lose money if you roll 4 losing dice in a row
-2. If my bet is $.03 per $100 and I lose 2 times in a row, my 3rd bet will be $33.33. If i lose a 4th time then the bet will try to be $333.33 which is more money then I have so the game will stop. 
-I will have lost $33.33. This is why its important to keep your bet below $.1 per $100. If i bet $.1 and lose 4 times. I will lose $111.11. The higher you're 'Bet amount' the more money you are risking, but you will also gain money quicker.
-3. Statistically speaking, a quadruple event (losing 4 times in a row) should happen every 10,000 plays. So you should expect to lose money around then. However, Stake cheats (whaaaattt), so you will lose more than you statistically should and some days Stake is just down right angry and you will lose constantly.
-4. If you want to lose less often you can change your bet to something like $.03 per $1000. This will require a penta-event to lose money (1 in 100,000 plays).
-5. Played an infinite number of times, you will simply break even. You can try and stop the game at a peak and collect money that way, this is why we have the option for a 'StopWin' and 'Deposit amount'. But again Stake does not play fair.
-6. Treat this more as a tool to increase your VIP level then a tool to make money.
+1. Recommended to have at least \$100 in the bank and to never bet above \$.1 per \$100 in the bank because you will lose money if you roll 4 losing dice in a row
+2. If my bet is \$.03 per \$100 and I lose 2 times in a row, my 3rd bet will be \$33.33. If I lose a 4th time, then the bet will try to be \$333.33 which is more money than I have, so the game will stop. 
+I will have lost \$33.33. This is why it's important to keep your bet below \$.1 per \$100. Suppose I bet \$.1 and lose 4 times. I will lose \$111.11. The higher you're 'Bet amount', the more money you are risking, but you will also gain money quicker.
+3. Statistically speaking, a quadruple event (losing 4 times in a row) should happen every 10,000 plays. So you should expect to lose money around then. However, Stake cheats (whaaaattt), so you will lose more than you statistically should, and some days Stake is just downright angry and you will lose constantly.
+4. If you want to lose less often, you can change your bet to something like \$.03 per \$1000. This will require a penta-event to lose money (1 in 100,000 plays).
+5. Played an infinite number of times, you will simply break even. You can try to stop the game at a peak and collect money that way; this is why we have the option for a 'StopWin' and 'Deposit amount'. But again, Stake does not play fair.
+6. Treat this more as a tool to increase your VIP level than a tool to make money.
 
 ------------------------------------------------------------------------
 
