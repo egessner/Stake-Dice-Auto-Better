@@ -33,7 +33,7 @@ start autoplay, and manage vault deposits automatically.
 
 ## Installation
 
-1.  Click green `Code`  -> `Download ZIP` -> Unzip file.
+1.  Click green `Code` button -> `Download ZIP` -> find downloaded file in file explorer -> Unzip file.
 
 2.  Open **Chrome** and go to:
 
