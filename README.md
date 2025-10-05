@@ -63,6 +63,7 @@ start autoplay, and manage vault deposits automatically.
 5.  Click **Play** to begin automated betting with your settings.\
 6.  Use **Reset to Default** if you need to restore baseline settings.\
 7. Open Chrome Dev Tools -> Console to view game statistics. Game statistics published every minute.
+8. Recomended to have at least $100 in the bank and to never bet above $.1 per $100 in the bank because you will lose money if you roll 3 losing dice in a row
 
 ------------------------------------------------------------------------
 
