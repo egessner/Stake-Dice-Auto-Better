@@ -33,11 +33,7 @@ start autoplay, and manage vault deposits automatically.
 
 ## Installation
 
-1.  Download or clone this repository to your computer.
-
-    ``` bash
-    git clone https://github.com/yourusername/stake-dice-extension.git
-    ```
+1.  Click green `Code`  -> `Download ZIP` -> Unzip file.
 
 2.  Open **Chrome** and go to:
 
