@@ -63,6 +63,7 @@ start autoplay, and manage vault deposits automatically.
 5.  Click **Play** to begin automated betting with your settings.\
 6.  Use **Reset to Default** if you need to restore baseline settings.\
 7. Open Chrome Dev Tools -> Console to view game statistics. Game statistics published every minute.
+8. **Do not pause the game with the in game 'Stop Autoplay' button. Press 'Play' on the chrome extension.** A monitor runs every minute to check if the bet needs to be changed and to post game stats in the console. This monitor will start the game again if it notices it is paused. The only way to turn the game and the monitor off is to hit 'play' in the chrome extension
 
 ------------------------------------------------------------------------
 
